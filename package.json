@@ -1,0 +1,18 @@
+{
+  "name": "com.kienack123.dll-packer",
+  "version": "1.0.0",
+  "displayName": "DLL Packer",
+  "description": "Pack a folder of scripts into dlls with the C# compiler that ships inside the Unity Editor. Editor and game code are split the way Unity does it, game code can get one dll per platform, the scripts the code depends on can come along, and checks explain what would break before you build. Editor only.",
+  "unity": "2022.3",
+  "author": {
+    "name": "KienTran",
+    "url": "https://github.com/kienack123"
+  },
+  "keywords": [
+    "editor",
+    "dll",
+    "compiler",
+    "roslyn",
+    "tools"
+  ]
+}
